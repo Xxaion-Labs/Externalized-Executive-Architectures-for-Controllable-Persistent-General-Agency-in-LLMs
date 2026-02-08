@@ -1,7 +1,7 @@
 # Xxaion-Labs / Externalized-Executive-Architectures-for-Controllable-Persistent-General-Agency-in-LLMs
 
 **Public timestamped prior-art repository**  
-**Author:** Xxaion  
+**Author:** Salvatore (Xxaion) Anziano  
 **Initial commit:** February 8, 2026  
 
 This repository exists solely as a public, timestamped record for defensive prior-art purposes.  
