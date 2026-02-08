@@ -1,6 +1,6 @@
 # Externalized Executive Architectures for Controllable, Persistent General Agency in Large Language Models
 
-**Author:** Xxaion  
+**Author:** Salvatore (Xxaion) Anziano  
 **Date:** February 8, 2026  
 **Version:** 1.0 (Defensive Publication – Prior Art Claim)  
 **Status:** Public disclosure for prior art purposes under applicable patent law
