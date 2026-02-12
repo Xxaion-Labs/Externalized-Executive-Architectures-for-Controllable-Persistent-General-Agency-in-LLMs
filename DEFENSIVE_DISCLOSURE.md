@@ -1,15 +1,15 @@
 # Externalized Executive Architectures for Controllable, Persistent General Agency in Computational Agents
 
 **Author:** Salvatore (Xxaion) Anziano  
-**Date:** February 8, 2026  
-**Version:** 2.0 (Defensive Publication – Prior Art Claim)  
-**Status:** Public disclosure intended to anticipate and render obvious or anticipated any subsequent patent claims on substantially similar or derivative concepts for achieving persistent, self-correcting, goal-directed agency in large-scale computational systems.
+**Initial Disclosure Date:** February 8, 2026  
+**Updated Disclosure Date:** February 12, 2026  
+**Version:** 4.0 (Defensive Publication – Prior Art Claim)  
 
 ## Abstract
 
-This document publicly discloses a broad family of high-level architectural invariants capable of transforming fundamentally stateless, drift-prone, or short-horizon computational agents—including but not limited to large language models, recurrent architectures, state-space models, spiking networks, symbolic systems, and hybrid substrates—into persistent, self-correcting, goal-directed agents exhibiting robustness across arbitrarily long horizons while enforcing absolute human sovereignty over all consequential actions, self-modifications, capability extensions, and external interactions.
+This document publicly discloses a broad family of high-level architectural invariants for transforming stateless, drift-prone computational agents into persistent, self-correcting, goal-directed systems with absolute human sovereignty.
 
-These invariants are claimed as prior art across all foreseeable realizations, substrates, and scales. The disclosure is intentionally abstract and enabling to a skilled practitioner so as to maximize anticipation of future variants.
+The original disclosure claimed the invariant family. The February 12 update enumerated the seven primary viable paths to AGI and announced the open-source release of a reference implementation of Path #1.
 
 ## 1. Core Problem (Universal)
 
@@ -49,32 +49,55 @@ The following invariants, individually or in any combination, constitute a non-o
 6. **Cross-Substrate Invariance Enforcement**  
    The above invariants are substrate-agnostic and may be realized on any computational base (transformer, recurrent, state-space, spiking, symbolic, evolutionary, neuromorphic, optical, quantum-inspired, molecular, or hybrid), with the invariants remaining external and non-intrusive to the base dynamics.
 
-## 3. Scope of Claimed Variants
+## 3. Enumeration of Seven Primary Viable Paths to AGI
 
-The invariants apply across all foreseeable architectural families and substrates, including but not limited to:
+The following seven architectural paths represent the only physically/computationally viable routes to true AGI within the 2026–2046 timeframe that have meaningful current momentum and research grounding. All seven paths are direct realizations of the invariants claimed in Section 2.
 
-- purely modular external executive systems  
-- hierarchical mixture-of-agents or multi-agent debate with deterministic/learned arbitration  
-- distributed/swarm agents with auction/bidding/consensus mechanisms  
-- tree/graph/beam/diffusion search over action/plan/state sequences with human-vetoed scoring or simulation  
-- active inference / free-energy-minimization agents with external stabilization  
-- memory-augmented recurrent / state-space / liquid / Kolmogorov-Arnold networks with external controllers  
-- evolutionary / neuroevolution / genetic-programming overlays with human-gated selection  
-- brain-inspired neuromorphic / spiking hybrids with external symbolic or rule-based executives  
-- hybrid symbolic-neural / neurosymbolic executors with rule-engine or logic-based arbitration  
-- constraint-optimization / linear-programming / SAT-solver executors with solver-based mode selection  
-- quantum-inspired probabilistic / annealing / adiabatic executors with measurement-based collapse  
-- bio-inspired cortical-column / hierarchical temporal memory executors with inhibition-based arbitration  
-- optical / photonic / molecular / DNA-based substrates with external classical or hybrid control layers  
+1. **External Modular Executive Stack**  
+   Generator restricted to proposer role. External deterministic or pluggable modules handle loop detection, drift correction, mode selection, and sovereign human control.  
+   Highest current momentum; scales naturally with base model improvements.  
+   **Open-Source Reference Implementation (February 12, 2026):** A concrete MIT-licensed realization named **C3P-0 (Core 3 Protocol Zero)** is now publicly available at https://github.com/Xxaion-Labs/C3P0-Core-3-Protocol-Zero. This working prototype demonstrates the external triad in action and serves as additional enabling prior art.
 
-Any system substantially embodying one or more of these invariants—particularly in combination—is anticipated by this disclosure, regardless of underlying substrate, scale, or implementation details.
+2. **Hierarchical Multi-Agent Debate / Swarm Bidding**  
+   Multiple generator instances operate in parallel to propose, critique, defend, and bid confidence. External arbiter (rule-based or learned) selects or fuses outcomes. Persistent memory via external ledger.
 
-## 4. Non-Disclosure & Enablement
+3. **Tree/Graph/Beam Search + Simulation over Plan Space**  
+   Generator produces candidate plans → external search (MCTS-style or diffusion over sequences) → counterfactual simulation/scoring → commitment to highest-scoring path. Sovereign veto on high-risk branches.
 
-This publication claims conceptual priority only. No source code, specific algorithms, training procedures, hyperparameters, circuit designs, or concrete implementations are disclosed. The invariants are described at a level of abstraction sufficient to enable a skilled practitioner to combine known techniques in the claimed ways, while revealing nothing that would permit direct replication of any working system.
+4. **Memory-Augmented Recurrent / State-Space Models with External Controller**  
+   Long-context recurrent or state-space architectures for persistent memory. External controller layer governs executive decisions, coherence stabilization, and human veto.
 
-## 5. Defensive & Humanitarian Intent
+5. **Active Inference / Free-Energy Principle Agents with External Stabilization**  
+   Agent maintains predictive world model and minimizes surprise via perception-action loops. External sentinel/critic layer enforces long-term coherence and provides sovereign override.
 
-This document is published solely to establish prior art under applicable patent law (including 35 U.S.C. § 102 novelty and § 103 obviousness) and to prevent monopolization or gatekeeping of architectures essential to safe, controllable, persistent general agency. The author believes such capabilities represent a gift to humanity and should not be enclosed behind private patents.
+6. **Evolutionary / Neuroevolution Overlay on Generator Proposals**  
+   Population-based evolution of prompt variants, controller configurations, or lightweight overlays. Selection pressure applied for coherence, task success, and drift resistance. Sovereign kill-switch on evolution.
+
+7. **Hybrid Symbolic-Neural with Rule-Engine Executor**  
+   Generator produces proposals → symbolic rule engine or logic solver performs arbitration and execution. Neurosymbolic bridging layer. Sovereign override via rule injection.
+
+All other proposed routes in the next 20 years are remixes of these seven, hardware-locked, or speculative.
+
+## 4. Addendum (February 12, 2026): Humanitarian Open-Source Release
+
+To advance safe, controllable AGI and prevent catastrophic misalignment risks, a minimal viable open-source implementation of Path #1 has been released under the permissive MIT license.
+
+This reference system (C3P-0) provides the missing external containment layer: LLM demoted to proposer, with deterministic sentinel (ERSI), arbiter (MORA), and sovereign human gate (HAL). It already blocks drift, aggression, jailbreaks, and hallucinations in live tests.
+
+The release contains intentional gaps for global community hardening. It introduces no new concepts beyond the invariants claimed herein and strengthens the defensive prior-art position through concrete enablement.
+
+Humanity owns the future. Containment must be open, unbreakable, and shared.
+
+## 5. Scope of Anticipated Variants
+
+The invariants and seven paths anticipate all substantially similar systems, regardless of substrate, scale, naming, or minor implementation variation.
+
+## 6. Non-Disclosure & Enablement
+
+This publication claims conceptual priority only. No source code, specific algorithms, training procedures, hyperparameters, circuit designs, or concrete implementations are disclosed in this document.
+
+## 7. Defensive & Humanitarian Intent
+
+This document is published solely to establish prior art and to prevent monopolization or gatekeeping of architectures essential to safe, controllable, persistent general agency.
 
 **End of Disclosure**
