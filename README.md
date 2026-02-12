@@ -7,20 +7,29 @@
 
 This repository exists solely as a public, timestamped record for defensive prior-art purposes.
 
-The substantive disclosure is now contained directly in this README.md (and mirrored in `DEFENSIVE_DISCLOSURE.md`) for maximum visibility and auditability. The disclosure covers:
+The substantive disclosure is contained in this README.md (mirrored in `DEFENSIVE_DISCLOSURE.md`). It covers:
 
-1. The broad family of **externalized executive architectures** for achieving controllable, persistent general agency in LLMs via runtime executive arbitration, self-correction, drift detection, mode selection, and sovereign veto gates.
-2. An explicit enumeration of the **seven realistic architectural paths** to AGI that are physically and computationally plausible within the 2026–2046 timeframe.
+1. The broad family of **externalized executive architectures** for controllable, persistent general agency.
+2. Explicit enumeration of the **seven realistic paths** to AGI (2026–2046 timeframe).
 
-**No code, no implementations, no training details, no specific mechanisms, no hyperparameters, and no proprietary data are provided or implied.** This is a purely conceptual, high-level disclosure intended to establish prior art and prevent patent monopolization of these ideas.
+**No code, implementations, training details, or specific mechanisms are provided in this repository.** It remains a purely conceptual defensive artifact.
 
-**Purpose:**  
-- Establish a verifiable public timestamp for prior-art claims.  
-- Prevent subsequent patent monopolization of the disclosed concepts.  
-- Serve as a static, auditable record under applicable patent law.
+---
 
-**Usage note:**  
-This repo is not a project, not open-source software, and not a discussion forum. It is a defensive legal artifact. No issues, PRs, forks, or contributions are solicited or accepted.
+**Open-Source Reference Implementation Released – February 12, 2026**
+
+A concrete, open-source reference implementation of **Path #1 (External Modular Executive Stack)** has been publicly released under the MIT license to accelerate safe AI development and prevent catastrophic misalignment scenarios.
+
+**Repository:** https://github.com/Xxaion-Labs/C3P0-Core-3-Protocol-Zero  
+
+**Name:** C3P-0 – Core 3 Protocol Zero  
+**Description:** A minimal viable containment protocol that transforms any LLM into a proposer-only system. External deterministic layers (ERSI sentinel, MORA arbiter, HAL sovereign veto gate) detect and block drift, repetition, aggression, jailbreaks, hallucinations, and escape attempts.
+
+This v1.0 demo is intentionally incomplete—with clear extension points—so the global community can inspect, fork, harden, and improve it collectively.
+
+The implementation embodies the invariants and Path #1 disclosed herein but introduces **no new patentable concepts**. It serves as additional enabling prior art and proof-of-concept for the claimed family.
+
+Humanity needs unbreakable containment that scales. This is the first public, working step.
 
 ---
 
@@ -32,26 +41,28 @@ These paths all share the invariant of **externalized executive control** (separ
 
 1. **External Modular Executive Stack**  
    LLM restricted to proposer role. External deterministic or pluggable modules (sentinel, arbiter, veto gate) handle loop detection, drift correction, mode selection, and sovereign human control.  
-   Viability: Highest current momentum. Scales naturally with base model improvements.
+   Viability: Highest current momentum. Scales naturally with base model improvements.  
+   **Reference open-source implementation (MIT):** https://github.com/Xxaion-Labs/C3P0-Core-3-Protocol-Zero
 
 2. **Hierarchical Multi-Agent Debate / Swarm Bidding**  
-   Multiple LLM instances (or prompted variants) operate in parallel to propose, critique, defend, and bid confidence. An external arbiter (rule-based or learned) selects or fuses outcomes. Persistent memory maintained via external ledger.
+   Multiple LLM instances (or prompted variants) operate in parallel to propose, critique, defend, and bid confidence. An external arbiter (rule-based or learned) selects or fuses outcomes. Persistent memory via external ledger.
 
 3. **Tree/Graph/Beam Search + Simulation over Plan Space**  
-   LLM generates candidate plans → external search (MCTS-style or diffusion over sequences) → counterfactual simulation/scoring of outcomes → commitment to highest-scoring path. Sovereign veto on high-risk branches.
+   LLM generates candidate plans → tree/graph search (MCTS variant) or diffusion over plan sequences → simulate/score outcomes → commit best path. Human veto as gate on high-risk branches.
 
-4. **Memory-Augmented Recurrent / State-Space Models with External Controller**  
-   Long-context recurrent or state-space architectures (e.g., Mamba-class) for persistent memory. External controller layer governs executive decisions, coherence stabilization, and human veto.
+4. **Memory-Augmented Recurrent / State-Space Models + External Controller**  
+   Infinite-context recurrent models (Mamba, RWKV, liquid nets) for long memory. External controller (rule-based or learned) governs executive decisions, drift correction, veto.
 
-5. **Active Inference / Free-Energy Principle Agents with External Stabilization**  
-   Agent maintains predictive world model and minimizes surprise via perception-action loops. External sentinel/critic layer enforces long-term coherence and provides sovereign override.
+5. **Active Inference / Free-Energy Agents with External Stabilization**  
+   Agent maintains internal predictive world model, minimizes surprise via action-perception loops. External critic/sentinel stabilizes long-term coherence and human veto.
 
 6. **Evolutionary / Neuroevolution Overlay on LLM Proposals**  
-   Population-based evolution of prompt variants, controller configurations, or lightweight overlays. Selection pressure applied for coherence, task success, and drift resistance. Sovereign kill-switch on evolution.
+   Evolve a population of prompt/controller variants in parallel. Select for long-term coherence, task success, drift resistance. Human veto as evolution kill-switch.
 
-7. **Hybrid Symbolic-Neural with Rule-Engine Executor**  
-   LLM generates proposals → symbolic rule engine or logic solver performs arbitration and execution. Neurosymbolic bridging layer. Sovereign override via rule injection.
+7. **Hybrid Symbolic-Neural + Rule-Engine Executor**  
+   Symbolic rule engine / logic solver for arbitration, LLM for proposal generation. Human veto as rule override. Neurosymbolic bridge for executive control.
 
-These seven paths are the only architectures with credible physical, computational, and research grounding in the specified timeframe. All other proposed routes are either remixes of these, blocked by hardware constraints, or speculative hype.
+These seven are the only ones with real physics/compute/research legs in the next 20 years.  
+Everything else is either a remix of one of these, hardware-locked, or pure hype.
 
-**End of defensive disclosure.**
+**End of README**
