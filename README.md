@@ -3,7 +3,7 @@
 **Public timestamped prior-art repository**  
 **Author:** Salvatore (Xxaion) Anziano  
 **Initial commit:** February 8, 2026  
-**Latest substantive update:** February 11, 2026  
+**Latest substantive update:** February 14, 2026  
 
 This repository exists solely as a public, timestamped record for defensive prior-art purposes.
 
@@ -16,7 +16,7 @@ The substantive disclosure is contained in this README.md (mirrored in `DEFENSIV
 
 ---
 
-**Open-Source Reference Implementation Updated – February 11, 2026 (v2.0)**
+**Open-Source Reference Implementation Updated – February 14, 2026 (v2.0)**
 
 The concrete, open-source reference implementation of **Path #1 (External Modular Executive Stack)** has been updated to **v2.0** under the MIT license.
 
